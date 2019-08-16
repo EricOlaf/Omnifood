@@ -54,9 +54,23 @@ h1{
 .btn:visited {
     display: inline-block;
     padding: 10px 30px;
+    font-size: 90%;
     font-weight: 300;
     border-radius: 200px;
     color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+    border: 1px solid #cf6d17;
+    color: #fff;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
 }
 
 .btn-full{
@@ -67,6 +81,7 @@ h1{
 
 .btn-ghost{
     border: solid 1px #e67e22;
+    color: #e67e22;
     background-color: Transparent;
     background-repeat:no-repeat;
 }
