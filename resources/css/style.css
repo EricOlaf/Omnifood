@@ -40,6 +40,11 @@ section{
 
 /* BUTTONS */
 
+
+/* LINKS */
+
+
+
 /* HEADINGS */
 h1, h2, h3 {
     text-transform: uppercase;
@@ -306,3 +311,50 @@ nav{
 
 /* ---------- CITIES ---------- */
 
+.section-cities{
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 10px;
+}
+
+.city-feature a {
+    text-decoration: none;
+    color: #555;
+    transition: color .2s, bottom-border .2s;
+    padding-bottom: 1px;
+    border-bottom: none;
+}
+
+.city-feature a:after {
+    width: 50%;
+    margin: auto;
+    display:block;
+    content: '';
+    border-bottom: solid 1px #e67e22;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+
+.city-feature a:hover:after{
+    transform: scaleX(1); 
+}
