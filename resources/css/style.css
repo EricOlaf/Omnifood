@@ -5,13 +5,15 @@
     box-sizing: border-box;
 }
 
-html{
+html,
+body{
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -92,12 +94,12 @@ h2:after{
     margin-bottom: 2rem;
 }
 
-.section-features .long-copy {
+.long-copy {
 
 }
 
 .box p {
-    font-size: 90%;
+    font-size: 95%;
     line-height: 145%;
     text-align: justify;
     text-justify: inter-word;
@@ -136,6 +138,7 @@ nav{
     display: block;
     width: 100vw;
     top: .5rem;
+    padding: 0 1.5rem;
 }
 
 .main-nav{
@@ -176,12 +179,12 @@ nav{
     align-items: center;
     height: 100vh;
     border: white 1px solid;
+    padding: 0 1.5rem;
 }
 
-
-
 .header__btns{
-   transform: translate(-36.5%, 0);
+   transform: translate(-15.5%, 0);
+   padding: 0 1.5rem;
 }
 
 .btn,
@@ -224,7 +227,16 @@ input[type=submit] {
     background-repeat:no-repeat;
 }
 
+/* -------------------------- */
 /* ---------- BODY ---------- */
+/* -------------------------- */
+
+/* ---------- SECTION FEATURES ---------- */
+
+.section-features {
+    padding-left: 2%;
+    padding-right: 2%;
+}
 
 .section-meals {
     padding: 0;
@@ -281,7 +293,7 @@ input[type=submit] {
 
 .app-screen {
     width: 40%;
-    min-width: 175px;
+    min-width: 225px;
 }
 
 .works-step{
@@ -350,18 +362,9 @@ input[type=submit] {
     border-bottom: none;
 }
 
-.city-feature a:after {
-    width: 50%;
-    margin: auto;
-    display:block;
-    content: '';
-    border-bottom: solid 1px #e67e22;  
-    transform: scaleX(0);  
-    transition: transform 250ms ease-in-out;
-}
 
-.city-feature a:hover:after{
-    transform: scaleX(1); 
+.city-feature a:hover{
+    color: #cf6d17; 
 }
 
 /* ---------- TESIMONIALS ---------- */
@@ -371,7 +374,7 @@ input[type=submit] {
     background-size: cover;
     color: rgb(244, 241, 238);
     background-attachment: fixed;
-    padding: 3rem 0;
+    padding: 3rem 3% 3rem 3%;
 }
 
 blockquote {
@@ -501,6 +504,10 @@ footer a{
     color: rgb(156, 156, 156);
     text-decoration: none;
     transition: color 0.2s;
+}
+
+.footer-nav {
+    padding-left: 2%;
 }
 
 .footer-nav, 

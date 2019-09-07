@@ -1,0 +1,53 @@
+
+/* Big tablets */
+@media only screen and (max-width: 1200px){
+
+}
+
+/* For ipad in landscape mode, */
+@media only screen and (max-width: 1023px){
+.city-feature {
+    font-size: 90%;
+}
+
+.section-cities .box {
+    padding: 0%;
+} 
+
+.icon-small{
+    margin-right: 0;
+}
+
+.footer-nav li{
+    margin-right: 15px;
+}
+
+
+}
+
+/* For Ipad */
+@media only screen and (max-width: 767px){
+
+    .main-nav{
+        display: none;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .box{
+        padding: 1% 10%;
+    }
+}
+
+/* For small phones */
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 175%;
+    }
+    .header__btns{
+        transform: none;
+        padding: 0 1.5rem;
+     }
+}
