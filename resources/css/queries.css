@@ -39,6 +39,9 @@
     .box{
         padding: 1% 10%;
     }
+    .steps-box:first-child{
+        text-align: center;
+    }
 }
 
 /* For small phones */
